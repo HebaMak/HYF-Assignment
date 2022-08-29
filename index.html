@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hapiii Designs</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+</head>
+
+<body>
+  <!-- start settings box -->
+  <section class="settings-box">
+    <div class="toggle-settings">
+      <i class="fa fa-gear setting"></i>
+    </div>
+    <div class="settings-container">
+      <div class="option-box">
+        <h4>Colors</h4>
+        <ul class="colors-list">
+          <li data-color="#ff0000" class="active"></li>
+          <li data-color="#04cccc"></li>
+          <li data-color="#9f54bd"></li>
+          <li data-color="#ff7b00"></li>
+          <li data-color="#7cf07c"></li>
+          <li data-color="#0000ff"></li>
+          <li data-color="#f306b8"></li>
+          <li data-color="#00ffdd"></li>
+          <li data-color="#dd565d"></li>
+          <li data-color="#b9f102"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>Random Background</h4>
+        <div class="random-background">
+          <span data-bg='yes' class="yes active">Go</span>
+          <span data-bg='no' class="no">Stop</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>Bullets Options</h4>
+        <div class="bullets-option">
+          <span data-display='show' class="yes active">Show</span>
+          <span data-display='hide' class="no">Hide</span>
+        </div>
+      </div>
+      <button class="resetBtn"> Reset Settings </button>
+    </div>
+  </section>
+  <!-- end settings box -->
+
+  <!-- start nav bullets -->
+  <section class="nav-bullets">
+    <div class="bullet" data-section='#home'>
+      <span class="tooltip">Home</span>
+    </div>
+    <div class="bullet" data-section='#about'>
+      <span class="tooltip">About</span>
+    </div>
+    <div class="bullet" data-section='#skills'>
+      <span class="tooltip">Skills</span>
+    </div>
+    <div class="bullet" data-section='#gallery'>
+      <span class="tooltip">Gallery</span>
+    </div>
+    <div class="bullet" data-section='#timeline'>
+      <span class="tooltip">Timeline</s>
+    </div>
+    <div class="bullet" data-section='#features'>
+      <span class="tooltip">Features</span>
+    </div>
+    <div class="bullet" data-section='#ourRange'>
+      <span class="tooltip">OurRange</span>
+    </div>
+    <div class="bullet" data-section='#testimonials'>
+      <span class="tooltip">Testimonials</span>
+    </div>
+  </section>
+  <!-- end nav bullets -->
+
+  <!-- start landing page -->
+  <section class="landing-page section" id='home' data-section='#home'>
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="header-area" id='header-area'>
+        <div class="logo">Hapiii Designs</div>
+        <div class="links-container">
+          <ul class="links" id='links'>
+            <li><a href="#" data-section='#home' class="active">Home</a></li>
+            <li><a href="#" data-section='#about'>About</a></li>
+            <li><a href="#" data-section='#skills'>Skills</a></li>
+            <li><a href="#" data-section='#gallery'>Gallery</a></li>
+            <li><a href="#" data-section='#timeline'>Timeline</a></li>
+            <li><a href="#" data-section='#features'>Features</a></li>
+            <li><a href="#" data-section='#ourRange'>Our Range</a></li>
+            <li><a href="#" data-section='#testimonials'>Testimonials</a></li>
+          </ul>
+          <button class="toggle-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="introduction-text">
+      <h1>We are <span>Creative</span> Agency</h1>
+      <p> You will find best services in Developing , Marketing , Hosting , Mobile Developing , Seo , Cloud & Services and others...
+      </p>
+    </div>
+  </section>
+  <!-- end landing page -->
+
+  <!-- start about section -->
+  <section class="container section" id='about'>
+    <div class="about-us">
+      <div class="info-box">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit nostrum modi necessitatibus fugit iste,
+          laboriosam velit libero. Harum, dolorum necessitatibus.</p>
+      </div>
+      <div class="image-box">
+        <div class="img">
+          <div class="imgOverlay"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about section -->
+
+  <!-- start our skills -->
+  <section class="skills section" id='skills'>
+    <div class="container">
+      <h2>Our Skills</h2>
+      <div class="skill-box">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span data-progress="85%" style="transition-delay: .5s"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-progress">
+          <span data-progress="90%" style="transition-delay: 1s"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">React.Js</div>
+        <div class="skill-progress">
+          <span data-progress="85%" style="transition-delay: 1.5s"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">Node.js</div>
+        <div class="skill-progress">
+          <span data-progress="80%" style="transition-delay: 2s"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">MySQL</div>
+        <div class="skill-progress">
+          <span data-progress="75%" style="transition-delay: 2.5s"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end our skills -->
+
+  <!-- start gallery -->
+  <section class="gallery section" id='gallery'>
+    <div class="container">
+      <h2>Our Gallary</h2>
+      <div class="imgs-box">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1573158828/xw6ieijrsfydhx4048vx.jpg" alt="first img">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1568493506/gstonjvosyjic3an7wvr.jpg" alt="second img">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1568493506/wlvyonvkfdgplzylxol2.jpg" alt="third img">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1568491191/a8dohthrc3zykf0hze5x.jpg" alt="forth img">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1568491187/gzaoqp8e1tr3rirnp1bl.jpg" alt="fifth img">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1563829422/pmqloedqtwps7getdaqv.jpg" alt="sexth img">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1568243282/ejgus4hbzwhhqa4z8prq.jpg" alt="seventh img">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1563446739/sample.jpg" alt="eigth img">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1563829420/zsiiefbifvj3gpgtekgj.jpg" alt="ninth img">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1568719025/x0xrtq3uhwdty0ehj6ff.jpg" alt="">
+      </div>
+    </div>
+  </section>
+  <!-- end gallery -->
+
+  <!-- start timeline -->
+  <section class="timeline section" id='timeline'>
+    <div class="container">
+      <div class="timeline-content">
+        <div class="year">2022</div>
+        
+        <div class="left">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam alias eveniet inventore rem
+              rerum vel!</p>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
+
+        <div class="right">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam alias eveniet inventore rem
+              rerum vel!</p>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
+        
+        <div class="year">2020</div>
+        
+        <div class="left">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam alias eveniet inventore rem
+              rerum vel!</p>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
+        
+        <div class="left">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam alias eveniet inventore rem
+              rerum vel!</p>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
+        
+        <div class="year">2018</div>
+        
+        <div class="right">
+          <div class="content">
+            <h3>Testing Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam alias eveniet inventore rem
+              rerum vel!</p>
+          </div>
+        </div>
+        
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </section>
+  <!-- end timeline -->
+
+  <!-- start features -->
+  <section class="features section" id='features'>
+    <h2>Our Features</h2>
+    <div class="container">
+      <div class="feat-box">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1612352850/thes8li0mwekhbl0b6ag.svg"
+          alt="first feature">
+        <h4>Development</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium.</p>
+      </div>
+      <div class="feat-box">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1612352667/zt4659nu4dsgfbj5jw3u.svg"
+          alt="first feature">
+        <h4>Marketing</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium.</p>
+      </div>
+      <div class="feat-box">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1612352671/lquir1dcm1zz1qkkysp5.svg"
+          alt="first feature">
+        <h4>Hosting</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium.</p>
+      </div>
+      <div class="feat-box">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1612352674/dgbz65qsueoxorgsxxte.svg"
+            alt="first feature">
+        <h4>Mobile Develope</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium.</p>
+      </div>
+      <div class="feat-box">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1612352668/uqxnbqi5iyfrnellqook.svg"
+            alt="first feature">
+        <h4>Cloud and Services</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium.</p>
+      </div>
+      <div class="feat-box">
+        <img src="https://res.cloudinary.com/hapiii/image/upload/v1612352675/ltp85247ka8toex6hdrx.svg"
+            alt="first feature">
+        <h4>Seo</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium.</p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  <!-- end features -->
+
+  <!-- start our working range  -->
+    <section class="covering section" id="ourRange">
+      <div class="table">
+        <table>
+          <caption>Our Services Range</caption>
+          <tr>
+            <th>Continent/Service</th>
+            <th>Development</th>
+            <th>Markering</th>
+            <th>Hosting</th>
+            <th>Mobile Service</th>
+            <th>Cloud and Services</th>
+            <th>Seo</th>
+          </tr>
+          <tr>
+            <td>Europe (Netherland - France - Uk - Germany) </td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+          </tr>
+          <tr>
+            <td>Africa (Egypt - South Africa - Mali)</td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+          </tr>
+          <tr>
+            <td>America (USA - Canada - Mexico)</td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+          </tr>
+          <tr>
+            <td>Asia (Japan - UAE - Malisia)</td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+          </tr>
+          <tr>
+            <td>South America (Brazil)</td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+          </tr>
+          <tr>
+            <td>Ausralia</td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-times" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+            <td><i class="fa fa-check" aria-hidden="true"></i></td>
+          </tr>
+        </table>
+      </div> 
+    </section>
+  <!-- end our working range  -->
+
+  <!-- start testimonials -->
+  <section class="testimonials section" id='testimonials'>
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testi-box">
+        <p>Lorem ipsum, dolor sit amet conctetur fuga adipisicing elit. Quam, excepturi amet earum tenetur.</p>
+        <div class="person-info">
+          <img src="https://res.cloudinary.com/hapiii/image/upload/v1649081132/mndha2h6dyshi4oxvjce.jpg"
+              alt="Img Two">
+          <div class="info">
+            <h4>Lydia Samir</h4>
+            <span>CEO At Company</span>
+          </div>
+        </div>
+      </div>
+      <div class="testi-box">
+        <p>Lorem ipsum, dolor sit amet conctetur fuga adipisicing elit. Quam, excepturi amet earum tenetur.</p>
+        <div class="person-info">
+          <img src="https://res.cloudinary.com/hapiii/image/upload/v1649081124/h8muujls2pjm42gszhxv.jpg"
+              alt="Img Three">
+          <div class="info">
+            <h4>Leloo Broce </h4>
+            <span>Marketing Manger</span>
+          </div>
+        </div>
+      </div>
+      <div class="testi-box">
+        <p>Lorem ipsum, dolor sit amet conctetur fuga adipisicing elit. Quam, excepturi amet earum tenetur.</p>
+        <div class="person-info">
+          <img src="https://res.cloudinary.com/hapiii/image/upload/v1649081126/jd6rzjwxuzpzooamat95.jpg"
+              alt="Img One">
+          <div class="info">
+            <h4>Jhon Maxim</h4>
+            <span>CTO At Company</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </section>
+  <!-- end testimonials -->
+
+  <!-- start contact us -->
+  <section class="contact">
+    <div class="overlay"></div>
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="left">
+          <input type="text" placeholder='your name' name='username'>
+          <input type="text" placeholder='your phone' name='phone'>
+          <input type="email" placeholder='your email' name='mail'>
+          <input type="text" placeholder='subject' name='subject'>
+        </div>
+        <div class="right">
+          <textarea name="message" placeholder="your message"></textarea>
+          <input type="submit" value='Send'>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- end contact us -->
+
+  <!-- start social media section -->
+  <section class="social-section">
+    <div class="container content ">
+      <div class="left">
+        <h4> Social Media </h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
+        </p>
+      </div>
+
+      <div class="right">
+        <i class="fa fa-facebook fa-3x"></i>
+        <i class="fa fa-twitter fa-3x"></i>
+        <i class="fa fa-google-plus fa-3x"></i>
+        <i class="fa fa-pinterest fa-3x"></i>
+        <i class="fa fa-instagram fa-3x"></i>
+        <i class="fa fa-stumbleupon fa-3x"></i>
+        <i class="fa fa-rss fa-3x"></i>
+      </div>
+    </div>
+  </section>
+  <!-- end social media section -->
+
+  <!-- start footer -->
+  <footer class="footer">
+    Created By Hapiii Org 2022 &copy;
+  </footer>
+  <!-- end footer -->
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
